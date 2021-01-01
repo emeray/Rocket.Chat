@@ -28,7 +28,7 @@ services:
       - 3000:3000
     labels:
       - "traefik.backend=rocketchat"
-      - "traefik.frontend.rule=Host: your.domain.tld"
+      - "traefik.frontend.rule=Host: rocketchat.gbox.work"
 
   mongo:
     image: mongo:4.0
